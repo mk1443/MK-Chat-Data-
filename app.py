@@ -20,7 +20,7 @@ from sentence_transformers import SentenceTransformer
 def main():
     load_dotenv()
     st.set_page_config(page_title="Chat with your Data")
-    st.header("MK-gpt")
+    st.header("MaK-gpt")
 
     if "conversation" not in st.session_state:
         st.session_state.conversation = None
